@@ -43,6 +43,7 @@ RE01/
     ├── RE01_Rust_Optimized_Assembly.png
     └── RE01_Rust_Optimized_SIMD_Assembly.png
 ```
+> **Note on Binaries:** Compiled executables (`results/` and `*.exe`) are excluded from version control via `.gitignore` to maintain repository hygiene. Binaries must be compiled locally following the reproduction steps below.
 ## 4. Development Environment
 
 The RE01 lab was conducted in the following development environment:
@@ -119,6 +120,7 @@ The `results/` directory should contain six binaries:
 - `rust_opt.exe`
 - `go_debug.exe`
 - `go_opt.exe`
+
 ## 6. Binary Size Comparison
 
 The six compiled binaries were compared based on their file sizes.
