@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.vscode/
+
+# Build outputs
+results/
+*.exe
+*.o
+*.obj
+*.dll
+*.pdb
+
+# Rust build artifacts
+target/
+
+# Go build artifacts
+*.test
+
+# Temporary files
+*.log
+*.tmp
+# Other RE Labs
+RE02/
+RE03/
+RE04/
