@@ -207,6 +207,12 @@ Decompiler output is a reconstruction of program behavior and may not fully repr
 
 Important findings should therefore be checked against the assembly instructions rather than relying on pseudocode alone.
 
+### 7.x Technical Verification
+Technical interpretations in this lab follow three verification principles:
+1. Decompiler-to-Assembly Verification: Decompiled pseudocode is cross-checked against assembly instructions, particularly when the decompiler output appears incomplete or does not clearly represent the underlying operations.
+2. Static Presence vs. Runtime Execution: The presence of instructions or code patterns in a binary does not establish that they are executed at runtime. For example, SIMD instructions identified in the Rust optimized binary are not necessarily executed with the test input n = 10.
+3. Evidence-Based Conclusions: Findings are limited to the binaries, functions, assembly instructions, pseudocode, and screenshots actually examined. Observations are not generalized to uninspected build variants or runtime behavior.
+
 ## 8. Evidence
 
 The following screenshots document selected assembly-level analysis performed in Ghidra.
